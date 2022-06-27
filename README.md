@@ -16,9 +16,10 @@
 
 ## Getting Started
 
-**`git clone https://github.com/RitobrotoMukherjee/math-magician.git`**
-**`cd math-magician`**
-**`npm run start`**
+- **`git clone https://github.com/RitobrotoMukherjee/math-magician.git`**
+- **`cd math-magician`**
+- **`npm run install`**
+- **`npm run start`**
 
 ## Authors
 
