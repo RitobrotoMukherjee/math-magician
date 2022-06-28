@@ -1,6 +1,6 @@
 # Math Magician App 
 
-> A web app developed using `React`. It's a simple calcualtor application
+> A web app developed using `React`. It's a simple calcualtor application. It also has a small router for about pages. Other than calculator all pages are static components.
 
 
 ## Built With
