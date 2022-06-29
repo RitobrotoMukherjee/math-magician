@@ -50,4 +50,5 @@ Give a ⭐️ if you like this project!
 This project is [MIT](./MIT.md) licensed.
 
 ## Code Reviewers
-Francis Ugorji [@GitHub](https://github.com/Gambit142)
+- Francis Ugorji [@GitHub](https://github.com/Gambit142)
+- Arslan Bisharat[@GitHub](https://github.com/arslanbisharat)
