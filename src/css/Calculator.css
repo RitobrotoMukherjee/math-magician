@@ -1,36 +1,36 @@
-.Calculator{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 1px solid #747474;
-    width: 499px;
-    margin: 30px;
+.Calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #747474;
+  width: 499px;
+  margin: 30px;
 }
 
 .Screen-div {
-    padding: 15px;
-    align-self: stretch;
-    background: #8b8888;
-    text-align: end;
-    font-size: 12px;
-    color: #fff;
+  padding: 15px;
+  align-self: stretch;
+  background: #8b8888;
+  text-align: end;
+  font-size: 12px;
+  color: #fff;
 }
 
 .Buttons-grid {
-    display: grid;
-    grid-template: repeat(5,1fr)/repeat(4,1fr);
+  display: grid;
+  grid-template: repeat(5, 1fr)/repeat(4, 1fr);
 }
 
 .Button {
-    padding: 15px;
-    font-size: 12px;
-    border: 1px solid #e5c7b2;
+  padding: 15px;
+  font-size: 12px;
+  border: 1px solid #e5c7b2;
 }
 
 .Orange-button {
-    background-color: #f98538;
+  background-color: #f98538;
 }
 
 .Zero {
-    grid-column: 1/span 2;
+  grid-column: 1/span 2;
 }
