@@ -38,11 +38,13 @@ export default function calculate(obj, buttonName) {
       return {
         next: obj.next + buttonName,
         total: null,
+        operation: null,
       };
     }
     return {
       next: buttonName,
       total: null,
+      operation: null,
     };
   }
 

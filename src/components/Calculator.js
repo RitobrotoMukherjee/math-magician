@@ -9,10 +9,11 @@ class Calculator extends React.Component {
     super(props);
     this.state = {
       buttons: [
-        'AC', '+/-', '%', '\u00F7', '7', '8', '9', '\u00D7',
+        'AC', '+/-', '%', '\u00F7', '7', '8', '9', 'x',
         '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '=',
       ],
       calculateObj: { total: 0, next: null, operation: null },
+      result: 0,
     };
 
     this.getResult = this.getResult.bind(this);
@@ -21,18 +22,24 @@ class Calculator extends React.Component {
   getResult(value) {
     const { calculateObj } = this.state;
     const calculation = Calculate(calculateObj, value);
-    console.log('Target:', value);
-    console.log('Calculation:', calculation);
     this.setState({
       calculateObj: calculation,
-    });
+    }, this.getScreenValue);
+  }
+
+  getScreenValue() {
+    const { calculateObj } = this.state;
+    let result = calculateObj.total || 0;
+    if (calculateObj.operation) result = `${calculateObj.total || ''} ${calculateObj.operation || ''}`;
+    if (calculateObj.next) result = `${calculateObj.total || ''} ${calculateObj.operation || ''} ${calculateObj.next}`;
+    this.setState({ result });
   }
 
   render() {
-    const { buttons, calculateObj } = this.state;
+    const { buttons, result } = this.state;
     return (
       <div className="Calculator">
-        <div className="Screen-div">{ calculateObj.total || calculateObj.next || 0}</div>
+        <div className="Screen-div">{ result }</div>
         <div className="Buttons-grid">
           {buttons.map((button) => (
             <Buttons key={button} value={button} handleClick={this.getResult} />

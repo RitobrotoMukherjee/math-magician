@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function Buttons(props) {
   const { value, handleClick } = props;
 
-  const orangeButtons = ['\u00F7', '\u00D7', '-', '+', '='];
+  const orangeButtons = ['\u00F7', 'x', '-', '+', '='];
 
   const classNamesCreate = (button) => {
     let className = 'Button';
