@@ -32,7 +32,7 @@
 
 ## Screenshots
 
-- ![only calculator])(./screenshots/secondCalc.PNG)
+![only calculator](./screenshots/secondCalc.PNG)
 
 ## 🤝 Contributing
 
