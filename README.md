@@ -30,6 +30,10 @@
 - Twitter: [@RitobrotoM3](https://twitter.com/RitobrotoM3)
 - LinkedIn: [Ritobroto Mukherjee](https://www.linkedin.com/in/ritobroto-mukherjee-519148ba/)
 
+## Screenshots
+
+- ![only calculator])(./screenshots/secondCalc.PNG)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
