@@ -57,3 +57,4 @@ This project is [MIT](./MIT.md) licensed.
 - Francis Ugorji [@GitHub](https://github.com/Gambit142)
 - Arslan Bisharat[@GitHub](https://github.com/arslanbisharat)
 - Zerradi Amine[@GitHub](https://github.com/dasileker)
+- Lameck Otieno [@GitHub](https://github.com/Lameck1)
