@@ -52,3 +52,4 @@ This project is [MIT](./MIT.md) licensed.
 ## Code Reviewers
 - Francis Ugorji [@GitHub](https://github.com/Gambit142)
 - Arslan Bisharat[@GitHub](https://github.com/arslanbisharat)
+- Zerradi Amine[@GitHub](https://github.com/dasileker)
