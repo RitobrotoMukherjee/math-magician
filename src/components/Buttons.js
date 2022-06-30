@@ -1,9 +1,7 @@
 import PropTypes from 'prop-types';
 
 function Buttons(props) {
-  const { value, handleClick } = props;
-
-  const orangeButtons = ['\u00F7', 'x', '-', '+', '='];
+  const { value, handleClick, orangeButtons } = props;
 
   const classNamesCreate = (button) => {
     let className = 'Button';
@@ -32,9 +30,14 @@ function Buttons(props) {
   );
 }
 
+Buttons.defaultProps = {
+  orangeButtons: ['\u00F7', 'x', '-', '+', '='],
+};
+
 Buttons.propTypes = {
   value: PropTypes.string.isRequired,
   handleClick: PropTypes.func.isRequired,
+  orangeButtons: PropTypes.arrayOf(PropTypes.string),
 };
 
 export default Buttons;
