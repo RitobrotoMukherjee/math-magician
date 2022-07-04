@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../css/Calculator.css';
 
+import Header from './Header';
 import Buttons from './Buttons';
 import CalculatorScreen from './CalculatorScreen';
 import Calculate from '../logic/calculate';
@@ -21,20 +22,25 @@ const Calculator = () => {
   };
 
   return (
-    <div className="Calculator">
-      <CalculatorScreen calculateObj={calculatorValue} />
-      <div className="Buttons-grid">
-        {buttons.map((button) => (
-          <Buttons
-            key={button}
-            value={button}
-            orangeButtons={orangeButtons}
-            handleClick={getResult}
-          />
-        ))}
-
+    <section className="CalculatorSection">
+      <div className="CalculatorSectionItems">
+        <Header heading="Let's do some math!" />
       </div>
-    </div>
+      <div className="Calculator CalculatorSectionItems">
+        <CalculatorScreen calculateObj={calculatorValue} />
+        <div className="Buttons-grid">
+          {buttons.map((button) => (
+            <Buttons
+              key={button}
+              value={button}
+              orangeButtons={orangeButtons}
+              handleClick={getResult}
+            />
+          ))}
+
+        </div>
+      </div>
+    </section>
   );
 };
 
