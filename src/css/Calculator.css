@@ -2,9 +2,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid #747474;
-  width: 499px;
+  border: 1px solid #5315e3;
+  border-radius: 3px;
   margin: 30px;
+  padding: 21px;
+  transition: box-shadow 1.5s;
+}
+
+.Calculator:hover {
+  box-shadow: 0 0 8px 12px #c6b5ec;
 }
 
 .Screen-div {
