@@ -31,15 +31,17 @@
   padding: 9px 9px;
   border-radius: 6px;
   text-align: center;
+  transition: all 1s;
 }
 
 .linkItems a {
   border-radius: 3px;
-  padding: 5px 9px;
-  transition: all 1s;
 }
 
 .linkItems a:hover {
-  background: rgb(5, 5, 115, 0.9);
   color: #fff;
+}
+
+.linkItems:hover {
+  background: rgb(5, 5, 115, 0.9);
 }

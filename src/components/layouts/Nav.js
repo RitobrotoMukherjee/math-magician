@@ -16,6 +16,9 @@ const Navigation = () => (
         <li className="linkItems">
           <Link to="calculator">Calculator</Link>
         </li>
+        <li className="linkItems">
+          <Link to="quotes">Quotes</Link>
+        </li>
       </ul>
     </nav>
   </header>

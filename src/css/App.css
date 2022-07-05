@@ -37,3 +37,8 @@
   flex-direction: column;
   text-align: justify;
 }
+
+.Quotes {
+  width: 72%;
+  line-height: 45px;
+}

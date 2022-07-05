@@ -14,7 +14,7 @@ Header.propTypes = {
 const Paragraph = (props) => {
   const { text } = props;
   return (
-    <div className="Paragraph-holder">
+    <div className="ParagraphContainer">
       <p>{ text }</p>
     </div>
   );

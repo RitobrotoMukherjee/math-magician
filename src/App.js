@@ -4,6 +4,7 @@ import Layout from './components/layouts/Layout';
 import NothingFound from './components/404';
 import Home from './components/Home';
 import Calculator from './components/Calculator';
+import Quotes from './components/Quotes';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="home" element={<Home />} />
         <Route path="calculator" element={<Calculator />} />
+        <Route path="quotes" element={<Quotes />} />
         <Route
           path="*"
           element={<NothingFound />}
