@@ -25,3 +25,15 @@ code {
     'Courier New',
     monospace;
 }
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  margin-top: 150px;
+}

@@ -1,4 +1,4 @@
-import Header from './Header';
+import Header from './Helper';
 
 const Home = () => (
   <section className="Section">

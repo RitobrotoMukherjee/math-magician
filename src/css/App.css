@@ -10,6 +10,14 @@
   pointer-events: none;
 }
 
+.Flex-1 {
+  flex: 1 0 25%;
+}
+
+.Flex-2 {
+  flex: 1 1 75%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

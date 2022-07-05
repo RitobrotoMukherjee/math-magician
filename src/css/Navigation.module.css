@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 3px 6px 12px 6px rgb(237, 233, 233);
+  background: #fff;
+  position: fixed;
+  width: 100vw;
+}
+
+.logo img {
+  height: 72px;
+  width: 207px;
+  object-fit: cover;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 60px;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.linkItems {
+  min-width: 65px;
+  margin-right: 30px;
+  border: 1px solid rgb(5, 5, 115, 0.9);
+  padding: 9px 9px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.linkItems a {
+  border-radius: 3px;
+  padding: 5px 9px;
+  transition: all 1s;
+}
+
+.linkItems a:hover {
+  background: rgb(5, 5, 115, 0.9);
+  color: #fff;
+}

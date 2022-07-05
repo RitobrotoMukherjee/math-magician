@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../css/Calculator.css';
 
-import Header from './Header';
+import Header from './Helper';
 import Buttons from './Buttons';
 import CalculatorScreen from './CalculatorScreen';
 import Calculate from '../logic/calculate';

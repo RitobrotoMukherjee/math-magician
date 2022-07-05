@@ -1,8 +1,9 @@
+import Header, { Paragraph } from './Helper';
+
 const NotFound = () => (
   <section className="MainSection">
-    <div className="NothingFound" style={{ padding: '1rem' }}>
-      Nothing found here
-    </div>
+    <Header heading="OOPS 404!!" />
+    <Paragraph text="No Page Found" />
   </section>
 );
 
