@@ -11,7 +11,7 @@
 
 ## Live Demo (if available)
 
-- [Live Demo Link](https://react-calculator-web.herokuapp.com/)
+- [Heroku Live](https://react-calculator-web.herokuapp.com/home)
 - [Netlify Live](https://dev--chic-caramel-678e35.netlify.app/home)
 
 
